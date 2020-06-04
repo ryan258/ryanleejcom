@@ -7,7 +7,7 @@ export const Container = ({ children }) => {
   return (
     <ContainerWrapper>
       <Nav />
-      {/* {children} */}
+      {children}
       <Footer />
     </ContainerWrapper>
   )

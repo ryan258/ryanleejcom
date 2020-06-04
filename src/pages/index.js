@@ -1,9 +1,12 @@
 import React from "react"
-import { Container } from "../components"
-// import { ContainerWrapper } from "../elements"
+import { Container, FeatureImage } from "../components"
 
 const IndexPage = () => {
-  return <Container></Container>
+  return (
+    <Container>
+      <FeatureImage />
+    </Container>
+  )
 }
 
 export default IndexPage
